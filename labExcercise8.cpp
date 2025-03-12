@@ -9,7 +9,7 @@ int main(){
     //program to delay for 3 seconds
     cout << "Processing..."<< endl;
     // pause for 3 seconds
-    this_thread::sleep_for(chrono::seconds(3));
+    sleep_for(seconds(3));
     cout << "Task Completed"<<endl;
     return 0;
 }
